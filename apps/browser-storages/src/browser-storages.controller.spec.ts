@@ -11,7 +11,9 @@ describe('BrowserStoragesController', () => {
       providers: [BrowserStoragesService],
     }).compile();
 
-    browserStoragesController = app.get<BrowserStoragesController>(BrowserStoragesController);
+    browserStoragesController = app.get<BrowserStoragesController>(
+      BrowserStoragesController,
+    );
   });
 
   describe('root', () => {

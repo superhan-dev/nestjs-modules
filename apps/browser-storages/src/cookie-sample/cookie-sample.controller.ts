@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { CookieSampleService } from './cookie-sample.service';
-import { Cookies } from '../cookies/cookies.decorator';
+import { Cookies } from '../common/decorators/cookies.decorator';
 
 @Controller('cookie-sample')
 export class CookieSampleController {
