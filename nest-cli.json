@@ -36,6 +36,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/uploader/tsconfig.app.json"
       }
+    },
+    "graphql-mongodb": {
+      "type": "application",
+      "root": "apps/graphql-mongodb",
+      "entryFile": "main",
+      "sourceRoot": "apps/graphql-mongodb/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/graphql-mongodb/tsconfig.app.json"
+      }
+    },
+    "browser-storages": {
+      "type": "application",
+      "root": "apps/browser-storages",
+      "entryFile": "main",
+      "sourceRoot": "apps/browser-storages/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/browser-storages/tsconfig.app.json"
+      }
     }
   }
 }
